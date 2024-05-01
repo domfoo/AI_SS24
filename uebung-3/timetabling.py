@@ -51,7 +51,7 @@ def main():
     print(*[sort_by_room(solution) for solution in solutions], sep='\n', end='\n\n')
 
     # print how many solutions were found
-    print(f'Found {len(solutions)} solutions')
+    print(f'Solutions found: {len(solutions)}')
 
 
 if __name__ == '__main__':

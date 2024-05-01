@@ -86,7 +86,7 @@ def print_solutions():
         print()
 
     # print how many solutions were found
-    print(f'Found {len(solutions)} solutions')
+    print(f'Solutions found:  {len(solutions)}')
 
 
 def print_solutions_min_conflicts():
@@ -102,8 +102,8 @@ def print_solutions_min_conflicts():
 
 
 def main():
-    # print_solutions()
-    print_solutions_min_conflicts()
+    print_solutions()
+    # print_solutions_min_conflicts()
 
 
 if __name__ == '__main__':
