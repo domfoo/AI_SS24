@@ -1,4 +1,5 @@
 .conda/
 .idea/
 *.class
+.ipynb_checkpoints/
 
